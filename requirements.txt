@@ -1,0 +1,4 @@
+pyaudio
+torch
+numpy
+transformers
