@@ -1,0 +1,60 @@
+Installation Guide
+==================
+
+Python Version
+--------------
+This project requires **Python 3.10.4 or higher**. Make sure you have an appropriate version installed before proceeding.
+
+To check your Python version, run:
+
+.. code-block:: bash
+
+   python --version
+
+Dependencies
+------------
+
+This project requires the following Python packages:
+
+- pyaudio
+- torch
+- numpy
+- transformers
+
+Install them using:
+
+.. code-block:: bash
+
+   pip install -r requirements.txt
+
+
+Setup Steps
+-----------
+
+1. Create a virtual environment (optional but recommended):
+   .. code-block:: bash
+
+      python -m venv venv
+      source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+2. Install the package:
+   .. code-block:: bash
+
+      pip install real_time_asr
+3 . How to use it :
+    create a python file and write the below code 
+
+    .. code-block:: python
+
+        from real_time_asr import RealTimeASR
+
+        if __name__ == "__main__":
+            # Create an instance of your ASR class
+            real_time_asr = RealTimeASR()
+
+            # Start real-time ASR
+            real_time_asr.start()
+
+
+    It will start doing recording audio from available microphone and then it will print the transcrption in console in real time . 
+    To stop this program from running press ctrl + c in console . 
