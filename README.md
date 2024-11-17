@@ -75,7 +75,7 @@ Contributions are welcome! If you'd like to contribute, feel free to:
 3. Submit a pull request.  
 
 ### Documentation
-For more info about code click here [click here](https://adityaraj00715.github.io/Real_Time_ASR/real_time_asr/asr.html)
+For more info about code [click here](https://adityaraj00715.github.io/Real_Time_ASR/real_time_asr.html)
 
 Pypi package link [here](https://pypi.org/project/real-time-asr/)
 
