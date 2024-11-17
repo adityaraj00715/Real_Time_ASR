@@ -74,5 +74,10 @@ Contributions are welcome! If you'd like to contribute, feel free to:
 2. Make your improvements.  
 3. Submit a pull request.  
 
+### Documentation
+For more info about code click here [click here](https://adityaraj00715.github.io/Real_Time_ASR/real_time_asr/asr.html)
+
+Pypi package link [here](https://pypi.org/project/real-time-asr/)
+
 ### License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
